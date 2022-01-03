@@ -74,7 +74,9 @@
 
 .animal-image{
     border-color: blue;
-    border-style:solid;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thick;
 }
 
 .quote-container1{
