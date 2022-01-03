@@ -9,7 +9,7 @@
 }
 .top-header{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     color: white;
 }
 
@@ -26,13 +26,14 @@
 }
 
 .main-img{
-    width: 100%;
     height: auto;
+    width: 100%;
     max-width: 250px;
 }
 
 .left-main-img {
     height: auto;
+    width: 100%;
     max-width: 350px;    
 }
 
