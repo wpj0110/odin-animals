@@ -1,0 +1,31 @@
+.header {
+    background-color: #1f2937;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.bottom-header{
+    display:flex;
+    color: white;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.h-links {
+    display: flex;
+    gap: 10px;
+}
+
+.main-img{
+    max-width: 250px;
+
+}
+.left-main-img {
+    max-width: 350px;    
+}
