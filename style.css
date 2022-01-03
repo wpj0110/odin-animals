@@ -1,3 +1,5 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
 .header {
     background-color: #1f2937;
     padding: 10px;
@@ -23,10 +25,12 @@
 }
 
 .main-img{
+    height: auto;
     max-width: 250px;
 
 }
 .left-main-img {
+    height: auto;
     max-width: 350px;    
 }
 
@@ -36,4 +40,54 @@
     color: white;
     padding: 15px;
     font-size: 16px;
+    cursor: pointer;
 }
+
+.animal-section,
+    .animal-pics,
+    .quote,
+    .signup,
+    .footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+.animal-section {
+    flex: 1 1 auto;
+}
+
+.animal-pics {
+    flex-direction: row;
+    gap: 25px;
+}
+
+.animal-item,
+    .animal-image {
+        width: 100%;
+        max-width: 450px;
+}
+.animal-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.animal-image{
+    border-color: blue;
+    border-style:solid;
+}
+
+.quote {
+    background-color: gray;
+
+}
+
+.signup {
+
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+

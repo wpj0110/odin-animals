@@ -9,31 +9,68 @@
 </head>
 <body>
     <div class="header">
-    <div class="top-header">
-        <h2 class="logo">Odin Animals</h2>
-        <div class="h-links">
-            <h4>header-link-one</h4>
-            <h4>header-link-two</h4>
-            <h4>header-link-three</h4>
+        <div class="top-header">
+            <h2 class="logo">Odin Animals</h2>
+            <div class="h-links">
+                <h4>header-link-one</h4>
+                <h4>header-link-two</h4>
+                <h4><a style="text-decoration:none; color:white;" href="https://github.com/wpj0110/odin-animals">Github-Link-Here</a></h4>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="left-main-img">
+                <p style="font-size: 40px; font-weight: bold;">Yes... this cat is real...</p>
+                <p style="font-size: 20px;">This is Ollie the Polite Cat! Want to see more? Click the button below</p>
+                <!-- <button> <a href="https://www.instagram.com/polite_cat_olli_official/?hl=en"> Ollie's IG</a></button> -->
+                <button class="ollie-button"onclick="OllieButton()">Ollie's IG</button>
+                <script>
+                    function OllieButton() {
+                        console.log("click")
+                        window.location = ('https://www.instagram.com/polite_cat_olli_official/')
+                    }
+                </script>
+            </div>
+            <div>
+                <img class="main-img" src="smiling-cat-creepy-cat.gif" alt="No cat.. why? :(">
+            </div>
         </div>
     </div>
-    <div class="bottom-header">
-        <div class="left-main-img">
-            <p style="font-size: 40px; font-weight: bold;">Yes... this cat is real...</p>
-            <p style="font-size: 20px;">This is Ollie the Polite Cat! Want to see more? Click the button below</p>
-            <!-- <button> <a href="https://www.instagram.com/polite_cat_olli_official/?hl=en"> Ollie's IG</a></button> -->
-            <button class="ollie-button"onclick="OllieButton()">Ollie's IG</button>
+    <div class="animal-section">
+        <h2 style="font-weight: bold; font-style: italic;">More notable animals worthy of praise...</h2>
+        <div class="animal-pics">
+            <div class="animal-item">
+                <img class="animal-image" src="maru-box.webp" alt="no maru">
+                <p>This is Maru the Cat! He really loves boxes... Check out his Youtube Channel!</p>
+                <i onclick="maruChannel()" class="fa fa-youtube-play" style="font-size:48px;color:red; cursor:pointer"></i>
+            </div>
+            <div class="animal-item">
+                <img class="animal-image" src="kevin2.jpeg" alt="no kevin">
+                <p>This is Kevin the Rhea! He is very friendly... Don't believe me? Ask Uncle Ben!</p>
+                <i onclick="kevinChannel()" class="fa fa-youtube-play" style="font-size:48px;color:red; cursor:pointer"></i>
+            </div>
+            <div class="animal-item">
+                <img class="animal-image" src="kabosu.webp" alt="no kabosu">
+                <p>This is Kabosu the Dog! You must've seen him somewhere already... Much surprised?</p>
+            </div>
+
             <script>
-                function OllieButton() {
-                    console.log("click")
-                    window.location = ('https://www.instagram.com/polite_cat_olli_official/')
+                function maruChannel(){
+                    window.location = ("https://www.youtube.com/watch?v=PsCQRc8_Pew")
+                }
+                function kevinChannel(){
+                    window.location("https://www.youtube.com/watch?v=CNvkOuuUWoc")
                 }
             </script>
         </div>
-        <div>
-            <img class="main-img" src="smiling-cat-creepy-cat.gif" alt="No cat.. why? :(">
-        </div>
     </div>
+    <div class="quote">
+        <p>quote here</p>
+    </div>
+    <div class="signup">
+        <p>call to action here</p>
+    </div>
+    <div class="footer">
+        <p>footer here</p>
     </div>
 </body>
 </html>
