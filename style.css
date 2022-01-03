@@ -29,3 +29,11 @@
 .left-main-img {
     max-width: 350px;    
 }
+
+.ollie-button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
