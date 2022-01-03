@@ -16,7 +16,6 @@
     color: white;
     justify-content: center;
     gap: 20px;
-
 }
 
 .h-links {
@@ -27,8 +26,8 @@
 .main-img{
     height: auto;
     max-width: 250px;
-
 }
+
 .left-main-img {
     height: auto;
     max-width: 350px;    
@@ -45,7 +44,8 @@
 
 .animal-section,
     .animal-pics,
-    .quote,
+    .quote-container1,
+    .quote-container2,
     .signup,
     .footer {
         display: flex;
@@ -77,9 +77,24 @@
     border-style:solid;
 }
 
-.quote {
+.quote-container1{
     background-color: gray;
+}
 
+.quote-container1 > * {
+    flex: 1 1 0;
+}
+
+.quote-container2 {
+    width:800px;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote2{
+    font-size: 18px;
+    margin-left: auto;
 }
 
 .signup {
